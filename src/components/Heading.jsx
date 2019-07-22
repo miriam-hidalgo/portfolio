@@ -7,7 +7,7 @@ import './Heading.css';
 function Heading() {
   return (
 <div className="jumbotron jumbotron-fluid">
-  <div className="container">
+
     <Row>
     <Col xs={6} md={4}>
     <Image src={photo} roundedCircle thumbnail />
@@ -17,7 +17,7 @@ function Heading() {
       <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </Col>
   </Row>
-  </div>
+  
 </div>
   );
 }
